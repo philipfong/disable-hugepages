@@ -6,7 +6,7 @@
 
 (2) Ensure ownership of `root:root` for the file
 
-(3) Ensure permissions of `0744` for the file
+(3) Ensure permissions of `0755` for the file
 
 ### Add the service ###
 
