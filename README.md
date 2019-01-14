@@ -2,7 +2,7 @@
 
 ### Add the script ###
 
-(1) Move the file named `disable-transparent-hugepages` to `/usr/bin`
+(1) Move the file named `disable-transparent-hugepages` to `/usr/bin/`
 
 (2) Ensure ownership of `root:root` for the file
 
@@ -10,7 +10,7 @@
 
 ### Add the service ###
 
-(4) Copy the file named `disable-transparent-hugepages.service` to `/etc/systemd/system`
+(4) Copy the file named `disable-transparent-hugepages.service` to `/etc/systemd/system/`
 
 (5) Ensure ownership of `root:root` for the file
 
