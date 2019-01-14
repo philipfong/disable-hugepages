@@ -1,4 +1,4 @@
-# disable-hugepages
+# Disable THP on Linux machines to ensure best performance with MongoDB
 
 ### Add the script ###
 
