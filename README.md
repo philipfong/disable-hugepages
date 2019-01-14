@@ -29,3 +29,11 @@
 (10) Copy the file named `tuned.conf` to `/etc/tuned/no-thp/`
 
 (11) Run `tuned-adm profile no-thp`
+
+### Testing ###
+
+(12) Run `cat /sys/kernel/mm/transparent_hugepage/enabled`
+
+(13) Run `cat /sys/kernel/mm/transparent_hugepage/defrag`
+
+(14) Both commands should produce this: `always madvise [never]`
