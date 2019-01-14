@@ -24,6 +24,6 @@
 
 ### Set THP ###
 
-(10) Copy the file named `tuned.conf` to /etc/tuned-profiles/no-thp/
+(10) Copy the file named `tuned.conf` to `/etc/tuned/no-thp/`
 
 (11) Run `tuned-adm profile no-thp`
