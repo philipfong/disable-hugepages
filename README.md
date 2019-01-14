@@ -24,7 +24,7 @@
 
 ### Set THP ###
 
-(9) Create a new path with `sudo mkdir /etc/tuned/no-thp`
+(9) Create a new path with `sudo mkdir /etc/tuned/no-thp/`
 
 (10) Copy the file named `tuned.conf` to `/etc/tuned/no-thp/`
 
