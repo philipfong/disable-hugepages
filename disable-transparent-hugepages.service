@@ -1,0 +1,9 @@
+[Unit]
+Description=Disable transparent hugepages startup script
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/disable-transparent-hugepages
+
+[Install]
+WantedBy=multi-user.target
