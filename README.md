@@ -65,9 +65,13 @@ Pre-req #2: Shut down all LAs
 `rpm -qa | grep mongo`
 
 `sudo rpm -ev mongodb-org-4.0.5-1.el7.x86_64`
+
 `sudo rpm -ev mongodb-org-mongos-4.0.5-1.el7.x86_64`
+
 `sudo rpm -ev mongodb-org-server-4.0.5-1.el7.x86_64`
+
 `sudo rpm -ev mongodb-org-shell-4.0.5-1.el7.x86_64`
+
 `sudo rpm -ev mongodb-org-tools-4.0.5-1.el7.x86_64`
 
 Check that all packages are removed: `rpm -qa | grep mongo`
