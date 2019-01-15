@@ -57,6 +57,7 @@ Pre-req #2: Shut down all LAs
 (5) Shut it down again and check that mongo is shut down: 
 
 `sudo service mongod stop`
+
 `systemctl status mongod`
 
 (6) Uninstall Mongo 4.0.5
