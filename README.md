@@ -40,7 +40,9 @@
 
 # Rollback MongoDB from 4.0.5 to 3.6.9
 
-Pre-req: shut down all LAs
+Pre-req #1: Back up the database
+
+Pre-req #2: Shut down all LAs
 
 (1) Check current featureCompatibility version (This may return a blank value)
 
@@ -50,9 +52,12 @@ Pre-req: shut down all LAs
 
 (3) Check it again for sanity: `db.adminCommand( { getParameter: 1, featureCompatibilityVersion: 1 } )`
 
-(4) Shut down mongo: `sudo service mongod stop`
+(4) Restart mongo 4.0 so that it starts up in compatibility mode: `sudo service mongod restart`
 
-(5) Check that mongo is shut down: `systemctl status mongod`
+(5) Shut it down again and check that mongo is shut down: 
+
+`sudo service mongod stop`
+`systemctl status mongod`
 
 (6) Uninstall Mongo 4.0.5
 
